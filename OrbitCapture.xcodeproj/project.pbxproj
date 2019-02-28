@@ -1,0 +1,550 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF1ABB6222283897006DB8EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1ABB6122283897006DB8EA /* AppDelegate.swift */; };
+		EF1ABB6422283897006DB8EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF1ABB6322283897006DB8EA /* Assets.xcassets */; };
+		EF1ABB6722283897006DB8EA /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF1ABB6522283897006DB8EA /* MainMenu.xib */; };
+		EF1ABB7322283897006DB8EA /* OrbitCaptureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1ABB7222283897006DB8EA /* OrbitCaptureTests.swift */; };
+		EF1ABB7E22283897006DB8EA /* OrbitCaptureUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1ABB7D22283897006DB8EA /* OrbitCaptureUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF1ABB6F22283897006DB8EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF1ABB5622283896006DB8EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF1ABB5D22283896006DB8EA;
+			remoteInfo = OrbitCapture;
+		};
+		EF1ABB7A22283897006DB8EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF1ABB5622283896006DB8EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF1ABB5D22283896006DB8EA;
+			remoteInfo = OrbitCapture;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF1ABB5E22283896006DB8EA /* OrbitCapture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OrbitCapture.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF1ABB6122283897006DB8EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EF1ABB6322283897006DB8EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF1ABB6622283897006DB8EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		EF1ABB6822283897006DB8EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF1ABB6922283897006DB8EA /* OrbitCapture.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OrbitCapture.entitlements; sourceTree = "<group>"; };
+		EF1ABB6E22283897006DB8EA /* OrbitCaptureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OrbitCaptureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF1ABB7222283897006DB8EA /* OrbitCaptureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrbitCaptureTests.swift; sourceTree = "<group>"; };
+		EF1ABB7422283897006DB8EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF1ABB7922283897006DB8EA /* OrbitCaptureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OrbitCaptureUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF1ABB7D22283897006DB8EA /* OrbitCaptureUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrbitCaptureUITests.swift; sourceTree = "<group>"; };
+		EF1ABB7F22283897006DB8EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF1ABB5B22283896006DB8EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF1ABB6B22283897006DB8EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF1ABB7622283897006DB8EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF1ABB5522283896006DB8EA = {
+			isa = PBXGroup;
+			children = (
+				EF1ABB6022283896006DB8EA /* OrbitCapture */,
+				EF1ABB7122283897006DB8EA /* OrbitCaptureTests */,
+				EF1ABB7C22283897006DB8EA /* OrbitCaptureUITests */,
+				EF1ABB5F22283896006DB8EA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF1ABB5F22283896006DB8EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF1ABB5E22283896006DB8EA /* OrbitCapture.app */,
+				EF1ABB6E22283897006DB8EA /* OrbitCaptureTests.xctest */,
+				EF1ABB7922283897006DB8EA /* OrbitCaptureUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF1ABB6022283896006DB8EA /* OrbitCapture */ = {
+			isa = PBXGroup;
+			children = (
+				EF1ABB6122283897006DB8EA /* AppDelegate.swift */,
+				EF1ABB6322283897006DB8EA /* Assets.xcassets */,
+				EF1ABB6522283897006DB8EA /* MainMenu.xib */,
+				EF1ABB6822283897006DB8EA /* Info.plist */,
+				EF1ABB6922283897006DB8EA /* OrbitCapture.entitlements */,
+			);
+			path = OrbitCapture;
+			sourceTree = "<group>";
+		};
+		EF1ABB7122283897006DB8EA /* OrbitCaptureTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF1ABB7222283897006DB8EA /* OrbitCaptureTests.swift */,
+				EF1ABB7422283897006DB8EA /* Info.plist */,
+			);
+			path = OrbitCaptureTests;
+			sourceTree = "<group>";
+		};
+		EF1ABB7C22283897006DB8EA /* OrbitCaptureUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EF1ABB7D22283897006DB8EA /* OrbitCaptureUITests.swift */,
+				EF1ABB7F22283897006DB8EA /* Info.plist */,
+			);
+			path = OrbitCaptureUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF1ABB5D22283896006DB8EA /* OrbitCapture */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF1ABB8222283897006DB8EA /* Build configuration list for PBXNativeTarget "OrbitCapture" */;
+			buildPhases = (
+				EF1ABB5A22283896006DB8EA /* Sources */,
+				EF1ABB5B22283896006DB8EA /* Frameworks */,
+				EF1ABB5C22283896006DB8EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OrbitCapture;
+			productName = OrbitCapture;
+			productReference = EF1ABB5E22283896006DB8EA /* OrbitCapture.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF1ABB6D22283897006DB8EA /* OrbitCaptureTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF1ABB8522283897006DB8EA /* Build configuration list for PBXNativeTarget "OrbitCaptureTests" */;
+			buildPhases = (
+				EF1ABB6A22283897006DB8EA /* Sources */,
+				EF1ABB6B22283897006DB8EA /* Frameworks */,
+				EF1ABB6C22283897006DB8EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF1ABB7022283897006DB8EA /* PBXTargetDependency */,
+			);
+			name = OrbitCaptureTests;
+			productName = OrbitCaptureTests;
+			productReference = EF1ABB6E22283897006DB8EA /* OrbitCaptureTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EF1ABB7822283897006DB8EA /* OrbitCaptureUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF1ABB8822283897006DB8EA /* Build configuration list for PBXNativeTarget "OrbitCaptureUITests" */;
+			buildPhases = (
+				EF1ABB7522283897006DB8EA /* Sources */,
+				EF1ABB7622283897006DB8EA /* Frameworks */,
+				EF1ABB7722283897006DB8EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF1ABB7B22283897006DB8EA /* PBXTargetDependency */,
+			);
+			name = OrbitCaptureUITests;
+			productName = OrbitCaptureUITests;
+			productReference = EF1ABB7922283897006DB8EA /* OrbitCaptureUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF1ABB5622283896006DB8EA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Hiromichi Matsushima";
+				TargetAttributes = {
+					EF1ABB5D22283896006DB8EA = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					EF1ABB6D22283897006DB8EA = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EF1ABB5D22283896006DB8EA;
+					};
+					EF1ABB7822283897006DB8EA = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EF1ABB5D22283896006DB8EA;
+					};
+				};
+			};
+			buildConfigurationList = EF1ABB5922283896006DB8EA /* Build configuration list for PBXProject "OrbitCapture" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF1ABB5522283896006DB8EA;
+			productRefGroup = EF1ABB5F22283896006DB8EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF1ABB5D22283896006DB8EA /* OrbitCapture */,
+				EF1ABB6D22283897006DB8EA /* OrbitCaptureTests */,
+				EF1ABB7822283897006DB8EA /* OrbitCaptureUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF1ABB5C22283896006DB8EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF1ABB6422283897006DB8EA /* Assets.xcassets in Resources */,
+				EF1ABB6722283897006DB8EA /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF1ABB6C22283897006DB8EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF1ABB7722283897006DB8EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF1ABB5A22283896006DB8EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF1ABB6222283897006DB8EA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF1ABB6A22283897006DB8EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF1ABB7322283897006DB8EA /* OrbitCaptureTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF1ABB7522283897006DB8EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF1ABB7E22283897006DB8EA /* OrbitCaptureUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF1ABB7022283897006DB8EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF1ABB5D22283896006DB8EA /* OrbitCapture */;
+			targetProxy = EF1ABB6F22283897006DB8EA /* PBXContainerItemProxy */;
+		};
+		EF1ABB7B22283897006DB8EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF1ABB5D22283896006DB8EA /* OrbitCapture */;
+			targetProxy = EF1ABB7A22283897006DB8EA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF1ABB6522283897006DB8EA /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF1ABB6622283897006DB8EA /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF1ABB8022283897006DB8EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EF1ABB8122283897006DB8EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		EF1ABB8322283897006DB8EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = OrbitCapture/OrbitCapture.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = X4ZJ46Q747;
+				INFOPLIST_FILE = OrbitCapture/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hylom.OrbitCapture;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		EF1ABB8422283897006DB8EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = OrbitCapture/OrbitCapture.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = X4ZJ46Q747;
+				INFOPLIST_FILE = OrbitCapture/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hylom.OrbitCapture;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		EF1ABB8622283897006DB8EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = X4ZJ46Q747;
+				INFOPLIST_FILE = OrbitCaptureTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hylom.OrbitCaptureTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OrbitCapture.app/Contents/MacOS/OrbitCapture";
+			};
+			name = Debug;
+		};
+		EF1ABB8722283897006DB8EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = X4ZJ46Q747;
+				INFOPLIST_FILE = OrbitCaptureTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hylom.OrbitCaptureTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OrbitCapture.app/Contents/MacOS/OrbitCapture";
+			};
+			name = Release;
+		};
+		EF1ABB8922283897006DB8EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = X4ZJ46Q747;
+				INFOPLIST_FILE = OrbitCaptureUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hylom.OrbitCaptureUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = OrbitCapture;
+			};
+			name = Debug;
+		};
+		EF1ABB8A22283897006DB8EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = X4ZJ46Q747;
+				INFOPLIST_FILE = OrbitCaptureUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hylom.OrbitCaptureUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = OrbitCapture;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF1ABB5922283896006DB8EA /* Build configuration list for PBXProject "OrbitCapture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF1ABB8022283897006DB8EA /* Debug */,
+				EF1ABB8122283897006DB8EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF1ABB8222283897006DB8EA /* Build configuration list for PBXNativeTarget "OrbitCapture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF1ABB8322283897006DB8EA /* Debug */,
+				EF1ABB8422283897006DB8EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF1ABB8522283897006DB8EA /* Build configuration list for PBXNativeTarget "OrbitCaptureTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF1ABB8622283897006DB8EA /* Debug */,
+				EF1ABB8722283897006DB8EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF1ABB8822283897006DB8EA /* Build configuration list for PBXNativeTarget "OrbitCaptureUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF1ABB8922283897006DB8EA /* Debug */,
+				EF1ABB8A22283897006DB8EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF1ABB5622283896006DB8EA /* Project object */;
+}
