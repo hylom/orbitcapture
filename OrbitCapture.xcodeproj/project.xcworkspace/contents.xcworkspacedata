@@ -2,6 +2,12 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:OrbitCapture.xcodeproj">
+      location = "group:/Users/hylom/Documents/Dev/OrbitCapture/OrbitCapture/UVCCameraControl.h">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/hylom/Documents/Dev/OrbitCapture/OrbitCapture/UVCCameraControl.m">
+   </FileRef>
+   <FileRef
+      location = "self:">
    </FileRef>
 </Workspace>
