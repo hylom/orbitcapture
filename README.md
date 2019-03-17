@@ -6,6 +6,10 @@ You can control pan/tilt, white balance, and exposure.
 
 ![screenshot](https://github.com/hylom/orbitcapture/blob/master/doc/screenshot.png "screenshot")
 
+## Download binary
+
+You can download Binary from https://osdn.net/projects/orbitcapture/simple/
+
 ## Supported platform
 
 * macOS 10.12 or above.
